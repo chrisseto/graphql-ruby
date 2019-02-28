@@ -188,7 +188,7 @@ module GraphQL
           # The user-provided hook didn't make any modifications.
           # In fact, the hook might have returned who-knows-what, so
           # ignore the return value and use the original values.
-          new_node_and_new_parent
+          [node, parent]
         end
       end
 
